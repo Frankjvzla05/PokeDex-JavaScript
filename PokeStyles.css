@@ -1,0 +1,117 @@
+/* Poke Styles */
+body {
+    text-align: center;
+}
+
+.formPoke {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: .7rem auto 1.2rem;
+}
+
+.formPoke>label {
+    margin-bottom: .4rem;
+}
+
+.formPoke input {
+    border: solid 1px #b9b7b3;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+}
+
+.formPoke button {
+    background-color: transparent;
+    background-image: url('./assets/img/pngwing.com.png');
+    background-size: 15px;
+    background-position: 35% 5px;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    color: #000;
+    border: solid 1px red;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 90%;
+    margin: 5px auto 0;
+    cursor: pointer;
+}
+
+#imgPoke {
+    max-width: 100px;
+}
+
+#error-msg {
+    padding: 0.5rem;
+    background-color: #b9b7b3;
+    margin: 1rem auto;
+    width: fit-content;
+    font-weight: 700;
+}
+
+#cardPoke {
+    width: 40%;
+    min-width: 300px;
+    border: solid 1px #b9b7b3;
+    border-radius: 15px;
+    margin: auto;
+    padding: 0 1em 1em;
+}
+
+#history {
+    padding-bottom: 1em;
+}
+
+#recents {
+    margin-bottom: 0;
+    color: #b9b7b3;
+}
+
+#history span {
+    padding: 0 .3em;
+    background-color: #ffe2dc;
+    color: #434343;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+#namePoke {
+    font-weight: 600;
+}
+
+#imgContainerPoke {
+    width: fit-content;
+    margin: auto;
+}
+
+#imgContainerPoke img {
+    border-radius: 40%;
+}
+
+.typePokemon {
+    width: 45%;
+    padding: 5px 20px;
+    margin: .5em auto 0;
+    border: solid 1px #b9b7b3;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#statsPoke {
+    max-width: 45%;
+    margin: 1em auto;
+}
+
+#statsPoke div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #b9b7b3;
+}
+
+#statsPoke p {
+    margin: 0;
+}

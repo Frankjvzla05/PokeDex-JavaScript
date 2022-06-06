@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéApi</title>
+    <script type="module" src="PokeScript.js" defer></script>
+    <link rel="stylesheet" href="/PokeStyles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pokéapi </h1>
+    </header>
+
+
+    <form class="formPoke" id="searchPoke">
+        <label>Busca tu pokemon por el nombre ó id</label>
+        <input type="text" name="pokemon" autocomplete="off">
+        <button>Buscar</button>
+    </form>
+
+    <div id="cardPoke" class="cardPoke">
+        <div id="history"></div>
+        <div id="namePoke">Pokedex</div>
+        <div id="imgContainerPoke" class="imgContainer">
+            <img id="imgPoke" src="./assets/img/pngwing.com.png" alt="imgPoke">
+        </div>
+
+        <div id="idPoke"></div>
+        <div id="heightPoke"></div>
+        <div id="weightPoke"></div>
+
+        <div id="typePoke" class="typePoke"></div>
+        <div id="statsPoke" class="statsPoke"></div>
+        <div class="errorPoke" id="error"></div>
+
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+
+
+</body>
+
+</html>
